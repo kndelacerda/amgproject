@@ -55,29 +55,41 @@
         });
     </script>
 
-    <style>
-        #hdLogo {
-            position: relative;
-        }
+    <!-- keen analysis -->
+<script type="text/javascript">
+    function createKeenWebAutoCollector() {
+        window.keenWebAutoCollector = window.KeenWebAutoCollector.create({
+            projectId: '59ee1a67c9e77c0001573e47',
+            writeKey: '692EFF59C85DAE9C14BB243FDB7447365E46B022F102D9ACAC64C3CF6ED3B69E216757C36F85D31206F29BD47CA36FECAE0F2B14D54B858FC862C668069ECFA94AF6A548482FDCAD0B61AB90BB69A1880A23BB5E1B4FAB2296E17F0B0006C5E3',
+            onloadCallbacks: window.keenWebAutoCollector.onloadCallbacks
+        }), window.keenWebAutoCollector.loaded()
+    }
 
-        #hdLogo::before {
-            content: 'BETA';
-            background-color: rgba(237, 0, 140, 1);
-            color: white;
-            padding: 1px 5px;
-            position: absolute;
-            bottom: -56px;
-            left: 105px;
-            font-size: 11px;
-            font-family: 'Libre Franklin', sans-serif;
-            font-weight: 600;
-            line-height: 1.3em;
-            box-shadow: 3px 3px 6px rgba(0, 0, 0, .4);
-            z-index: 1500;
-            pointer-events: none;
-            cursor: default;
+    function initKeenWebAutoCollector() {
+        window.keenWebAutoCollector.domReady() ? window.createKeenWebAutoCollector() : document.addEventListener("readystatechange", function() {
+            window.keenWebAutoCollector.domReady() && window.createKeenWebAutoCollector()
+        })
+    }
+    window.keenWebAutoCollector = {
+        onloadCallbacks: [],
+        onload: function(a) {
+            this.onloadCallbacks.push(a)
+        },
+        domReady: function() {
+            return ["ready", "complete"].indexOf(document.readyState) > -1
         }
-    </style>
+    };
+</script>
+<script async type="text/javascript" src="https://d26b395fwzu5fz.cloudfront.net/keen-web-autocollector-1.0.8.min.js" onload="initKeenWebAutoCollector()"></script>
+
+<!-- keen custom datapoints -->
+<script type="text/javascript">
+    window.keenWebAutoCollector.onload(function() {
+        window.keenWebAutoCollector.tracker.recordEvent('my_custom_event', {
+            property: 'value'
+        });
+    });
+</script>
 
 </head>
 <!-- /w3layouts-agile -->
