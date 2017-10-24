@@ -1,0 +1,2679 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>HIDIVE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="HIDIVE" />
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.css" />
+    <!-- Custom CSS -->
+    <link href="../assets/css/style.css" rel='stylesheet' type='text/css' />
+    <!-- Graph CSS -->
+    <link href="../assets/css/font-awesome.css" rel="stylesheet">
+    <!-- jQuery -->
+    <!-- lined-icons -->
+    <link rel="stylesheet" href="../assets/css/icon-font.css" type='text/css' />
+    <!-- //lined-icons -->
+    <!-- Carousel from Site -->
+    <link href="../assets/css/home-carousel.css" rel="stylesheet" />
+    <link href="../assets/css/idk.css" rel="stylesheet" />
+    <link href="../assets/css/ShopifyCart.css" rel="stylesheet" />
+    <script src="../assets/js/shopify-cart.js"></script>
+
+
+
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Meters graphs -->
+    <script src="../assets/js/jquery-2.1.4.js"></script>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600,700");
+        @import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
+    </style>
+
+    <script src="../assets/js/help.js"></script>
+    <script src="https://chat.hidive.com/signalr/hubs"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            window.hidive.help.main({
+                mapping: "home",
+                auto: true
+            });
+            window.hidive.fbpx.viewContent(null, null, "Index", "Home", ["true"]);
+        });
+    </script>
+
+    <style>
+        #hdLogo {
+            position: relative;
+        }
+
+        #hdLogo::before {
+            content: 'BETA';
+            background-color: rgba(237, 0, 140, 1);
+            color: white;
+            padding: 1px 5px;
+            position: absolute;
+            bottom: -56px;
+            left: 105px;
+            font-size: 11px;
+            font-family: 'Libre Franklin', sans-serif;
+            font-weight: 600;
+            line-height: 1.3em;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, .4);
+            z-index: 1500;
+            pointer-events: none;
+            cursor: default;
+        }
+    </style>
+
+</head>
+<!-- /w3layouts-agile -->
+
+<body class="sticky-header left-side-collapsed" onload="initMap()">
+    <script src="../assets/js/shopify-cart.js"></script>
+
+    <section>
+        <!-- left side start-->
+        <div class="left-side sticky-left-side">
+            <div class="logo-icon text-center">
+                <a href="index.html">HD </a>
+            </div>
+            <!-- /w3l-agile -->
+            <!--logo and iconic logo end-->
+            <div class="left-side-inner">
+
+                <!--sidebar nav start-->
+                <ul class="nav nav-pills nav-stacked custom-nav">
+                    <li class="active"><a href="index.html"><i class="lnr lnr-home"></i><span>Home</span></a></li>
+                    <li><a href="#" data-toggle="modal"><i class="fa fa-th"></i><span>Schedule</span></a></li>
+                    <li><a href="#"><i class="lnr lnr-users"></i> <span>AnimeWiki</span></a></li>
+                    <li class="menu-list"><a href="#"><i class="lnr lnr-indent-increase"></i> <span>Browse</span></a>
+                    </li>
+                    <li><a href="#"><i class="lnr lnr-book"></i><span>Community</span></a></li>
+                    </li>
+                </ul>
+                <!--sidebar nav end-->
+            </div>
+        </div>
+        <!-- /w3layouts-agile -->
+
+        <!-- app-->
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog facebook" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="app-grids">
+                            <div class="app">
+                                <div class="col-md-5 app-left mpl">
+                                    <h3>Mosaic mobile app on your smartphone!</h3>
+                                    <p>Download and Avail Special Songs Videos and Audios.</p>
+                                    <div class="app-devices">
+                                        <h5>Gets the app from</h5>
+                                        <a href="#"><img src="../assets/images/1.png" alt=""></a>
+                                        <a href="#"><img src="../assets/images/2.png" alt=""></a>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 app-image">
+                                    <img src="../assets/images/apps.png" alt="">
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //app-->
+        <!-- /w3l-agile -->
+        <!-- signup -->
+        <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="sign-grids">
+                            <div class="sign">
+                                <div class="sign-left">
+                                    <ul>
+                                        <li><a class="fb" href="#"><i></i>Sign in with Facebook</a></li>
+                                        <li><a class="goog" href="#"><i></i>Sign in with Google</a></li>
+                                        <li><a class="linkin" href="#"><i></i>Sign in with Linkedin</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sign-right">
+                                    <form action="#" method="post">
+
+                                        <h3>Create your account </h3>
+                                        <input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+                                        <input type="text" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+                                        <input type="text" value="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">
+                                        <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
+
+                                        <input type="submit" value="CREATE ACCOUNT">
+                                    </form>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //signup -->
+        <!-- /w3l-agile -->
+        <!-- left side end-->
+        <!-- main content start-->
+        <div class="main-content">
+            <!-- header-starts -->
+            <div class="header-section">
+                <!--toggle button start-->
+                <a class="toggle-btn  menu-collapsed"><i class="fa fa-bars"></i></a>
+                <!--toggle button end-->
+                    <div class="clearfix"> </div>
+                </div>
+        </div>
+        </div>
+        </div>
+        <!--//Anime Left Side-->
+        <div class="clearfix"></div>
+        <!-- /w3l-agile-its -->
+        </div>
+        <!-- FROM HIDIVE -->
+        <div class="main-content">
+            <div class="body-bg-color top-page-offset">
+                <div class="tour">
+                    <div id="simulcast" class="section">
+
+                        <h1 data-tour-point="0">
+                            Simulcasts
+
+
+                        </h1>
+                        <div class="title-slider">
+
+                            <div class="cell" data-section="simulcast" data-id="806" id="simulcast-806" data-premieredt="10/6/2017 7:00:00 PM" data-releasedt="10/5/2017 5:00:00 PM" data-nextairdate="10/28/2017 12:30:00 PM">
+                                <div class="top-badge top-badge-left">
+                                    <div class="sfw-badge badge-sim">
+                                        <i class="fa fa-clock-o"></i> E4 In 6 Days
+                                    </div>
+                                </div>
+
+
+                                <div class="hitbox">
+                                    <div class="arrow_box">
+
+                                        <div class="player">
+                                            <a href="https://www.hidive.com/stream/hozukis-coolheadedness-2/s02e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                        </div>
+
+                                        <div class="synopsis">
+                                            <h3 title="Hozuki&#39;s Coolheadedness 2">Hozuki's Coolheadedness 2</h3>
+                                        </div>
+                                        <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                    </div>
+                                </div>
+                                <div class="img-rotator" data-num-of-episodes="13">
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/512x288/HZC_02_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/512x288/HZC_02_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/512x288/HZC_02_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                </div>
+                                <div class="default-img">
+                                    <img src="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/HZC_02_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                                </div>
+                            </div>
+                            <div class="cell" data-section="simulcast" data-id="815" id="simulcast-815" data-premieredt="10/6/2017 7:00:00 PM" data-releasedt="10/5/2017 5:00:00 PM" data-nextairdate="10/28/2017 8:00:00 AM">
+                                <div class="top-badge top-badge-left">
+                                    <div class="sfw-badge badge-sim">
+                                        <i class="fa fa-clock-o"></i> E4 In 6 Days
+                                    </div>
+                                </div>
+
+
+                                <div class="hitbox">
+                                    <div class="arrow_box">
+
+                                        <div class="player">
+                                            <a href="https://www.hidive.com/stream/dynamic-chord/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                        </div>
+
+                                        <div class="synopsis">
+                                            <h3 title="DYNAMIC CHORD">DYNAMIC CHORD</h3>
+                                        </div>
+                                        <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                    </div>
+                                </div>
+                                <div class="img-rotator" data-num-of-episodes="12">
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/DYC/512x288/DYC_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/DYC/512x288/DYC_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/DYC/512x288/DYC_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                </div>
+                                <div class="default-img">
+                                    <img src="https://d10xkldqejj5hr.cloudfront.net/titles/DYC/DYC_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                                </div>
+                            </div>
+                            <div class="cell" data-section="simulcast" data-id="805" id="simulcast-805" data-premieredt="10/6/2017 7:00:00 PM" data-releasedt="10/5/2017 5:00:00 PM" data-nextairdate="10/28/2017 6:00:00 AM">
+                                <div class="top-badge top-badge-left">
+                                    <div class="sfw-badge badge-sim">
+                                        <i class="fa fa-clock-o"></i> E4 In 6 Days
+                                    </div>
+                                </div>
+
+
+                                <div class="hitbox">
+                                    <div class="arrow_box">
+
+                                        <div class="player">
+                                            <a href="https://www.hidive.com/stream/classicaloid-2/s02e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                        </div>
+
+                                        <div class="synopsis">
+                                            <h3 title="ClassicaLoid 2">ClassicaLoid 2</h3>
+                                        </div>
+                                        <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                    </div>
+                                </div>
+                                <div class="img-rotator" data-num-of-episodes="13">
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/512x288/CLD_02_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/512x288/CLD_02_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/512x288/CLD_02_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                </div>
+                                <div class="default-img">
+                                    <img src="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/CLD_02_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                                </div>
+                            </div>
+                            <div class="cell" data-section="simulcast" data-id="761" id="simulcast-761" data-premieredt="4/7/2017 7:00:00 PM" data-releasedt="4/1/2017 1:00:00 AM" data-nextairdate="">
+                                <div class="top-badge top-badge-right">
+                                    <div class="sfw-badge badge-exclusive">
+                                        Exclusive
+                                    </div>
+                                </div>
+
+
+                                <div class="hitbox">
+                                    <div class="arrow_box">
+
+                                        <div class="player">
+                                            <a href="https://www.hidive.com/stream/rin-ne-3/s03e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                        </div>
+
+                                        <div class="synopsis">
+                                            <h3 title="RIN-NE 3">RIN-NE 3</h3>
+                                        </div>
+                                        <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                    </div>
+                                </div>
+                                <div class="img-rotator" data-num-of-episodes="25">
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/RNE/512x288/rinne-3_RNE_03_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/RNE/512x288/rinne-3_RNE_03_002_512x288_01.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/RNE/512x288/rinne-3_RNE_03_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                </div>
+                                <div class="default-img">
+                                    <img src="https://d10xkldqejj5hr.cloudfront.net/titles/RNE/RNE_03_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                                </div>
+                            </div>
+                            <div class="cell" data-section="simulcast" data-id="784" id="simulcast-784" data-premieredt="7/1/2017 7:00:00 PM" data-releasedt="6/30/2017 12:00:00 PM" data-nextairdate="">
+                                <div class="top-badge top-badge-right">
+                                    <div class="sfw-badge badge-exclusive">
+                                        Exclusive
+                                    </div>
+                                </div>
+
+
+                                <div class="hitbox">
+                                    <div class="arrow_box">
+
+                                        <div class="player">
+                                            <a href="https://www.hidive.com/stream/battle-girl-high-school/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                        </div>
+
+                                        <div class="synopsis">
+                                            <h3 title="Battle Girl High School">Battle Girl High School</h3>
+                                        </div>
+                                        <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                    </div>
+                                </div>
+                                <div class="img-rotator" data-num-of-episodes="12">
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/512x288/battle-girl-high-school_BGH_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/512x288/battle-girl-high-school_BGH_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/512x288/battle-girl-high-school_BGH_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                </div>
+                                <div class="default-img">
+                                    <img src="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/Battle-Girl-High-School_BGH_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                                </div>
+                            </div>
+                            <div class="cell" data-section="simulcast" data-id="788" id="simulcast-788" data-premieredt="7/5/2017 7:00:00 PM" data-releasedt="7/6/2017 12:00:00 PM" data-nextairdate="">
+                                <div class="top-badge top-badge-right">
+                                    <div class="sfw-badge badge-exclusive">
+                                        Exclusive
+                                    </div>
+                                </div>
+
+
+                                <div class="hitbox">
+                                    <div class="arrow_box">
+
+                                        <div class="player">
+                                            <a href="https://www.hidive.com/stream/action-heroine-cheer-fruits/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                        </div>
+
+                                        <div class="synopsis">
+                                            <h3 title="Action Heroine Cheer Fruits">Action Heroine Cheer Fruits</h3>
+                                        </div>
+                                        <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                    </div>
+                                </div>
+                                <div class="img-rotator" data-num-of-episodes="12">
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                </div>
+                                <div class="default-img">
+                                    <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/action-heroine-cheer-fruits_ACF_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="window">
+                            <div class="closeWin" data-tour-point="4"><span class="closeBtn fa fa-times"></span></div>
+                            <div class="details">
+
+                                <div style="text-align:center; padding-top:100px;">
+                                    <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i> Loading...
+                                </div>
+
+                            </div>
+                            <div class="navigation">
+                                <div data-section="simulcast">
+                                    <div><span class="nav-info nav-selected">Information</span></div>
+                                    <div><span class="nav-episode">Episode List</span></div>
+                                    <div><span class="nav-recommend">You Might Like</span></div>
+                                    <span data-tour-point="5"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="dubbed" class="section">
+
+                    <h1 data-tour-point="0">
+                        Dubs
+
+
+                        <small class="hidden-xs" style="font-size:12px;">&nbsp;<a href="/dubs" data-toggle="tooltip" title="View All">View All (244)</a></small>
+                        <small class="visible-xs" style="font-size:18px;">&nbsp;<a href="/dubs" data-toggle="tooltip" title="View All"><i class="fa fa-sign-out"></i> (244)</a></small>
+                    </h1>
+                    <div class="title-slider">
+
+                        <div class="cell" data-section="dubbed" data-id="597" id="dubbed-597" data-premieredt="4/8/2016 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/flying-witch/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Flying Witch">Flying Witch</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLW/512x288/flying-witch_FLW_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLW/512x288/flying-witch_FLW_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLW/512x288/flying-witch_FLW_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/FLW/FLW_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="664" id="dubbed-664" data-premieredt="10/3/2011 7:00:00 PM" data-releasedt="6/1/2017 1:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/chihayafuru/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Chihayafuru">Chihayafuru</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="25">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/512x288/CHF_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/512x288/CHF_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/512x288/CHF_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/CHF_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="657" id="dubbed-657" data-premieredt="11/20/2015 7:00:00 PM" data-releasedt="8/24/2017 12:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/girls-und-panzer-der-film/2015112101" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Girls und Panzer der Film">Girls und Panzer der Film</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GUP/512x288/GUP_movie_20151121_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/GUP/GUP_MOVIE_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="518" id="dubbed-518" data-premieredt="7/2/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/ushio-tora/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Ushio &amp; Tora">Ushio & Tora</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="39">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/512x288/UHT_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/512x288/UHT_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/512x288/UHT_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/UHT_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="491" id="dubbed-491" data-premieredt="4/3/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/food-wars/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Food Wars!">Food Wars!</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="24">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/512x288/food-wars_FDW_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/512x288/food-wars_FDW_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/512x288/food-wars_FDW_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/FDW_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="510" id="dubbed-510" data-premieredt="7/6/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/monster-musume-everyday-life-with-monster-girls/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="MONSTER MUSUME Everyday Life with Monster Girls">MONSTER MUSUME Everyday Life with Monster Girls</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ELM/512x288/ELM_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ELM/512x288/ELM_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ELM/512x288/ELM_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ELM/ELM_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="517" id="dubbed-517" data-premieredt="7/2/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/gate/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="GATE">GATE</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="24">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GTE/512x288/GTE_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GTE/512x288/GTE_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GTE/512x288/GTE_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GTE/GTE_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="515" id="dubbed-515" data-premieredt="7/8/2015 7:00:00 PM" data-releasedt="7/8/2015 7:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/school-live/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="School-Live!">School-Live!</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GKG/512x288/GKG_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GKG/512x288/GKG_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GKG/512x288/GKG_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GKG/GKG_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="572" id="dubbed-572" data-premieredt="10/2/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/chivalry-of-a-failed-knight/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Chivalry of a Failed Knight">Chivalry of a Failed Knight</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SFK/512x288/chivalry-of-a-failed-knight_SFK_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SFK/512x288/chivalry-of-a-failed-knight_SFK_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SFK/512x288/chivalry-of-a-failed-knight_SFK_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SFK/SFK_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="511" id="dubbed-511" data-premieredt="7/7/2015 7:00:00 PM" data-releasedt="7/7/2015 7:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/himouto-umaru-chan/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Himouto! Umaru-chan">Himouto! Umaru-chan</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HUC/512x288/HUC_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HUC/512x288/HUC_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HUC/512x288/HUC_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HUC/HUC_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="771" id="dubbed-771" data-premieredt="12/21/2010 7:00:00 PM" data-releasedt="4/19/2017 7:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/angel-beats-ova/2010122214" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Angel Beats OVA">Angel Beats OVA</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/512x288/ANB_01_014_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/ANB_OVA_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="755" id="dubbed-755" data-premieredt="9/27/2014 7:00:00 PM" data-releasedt="3/1/2017 1:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/dramatical-murder-ova/2014092813" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Dramatical Murder OVA">Dramatical Murder OVA</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/DMM/512x288/dramatical-murder_DMM_01_013_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/DMM/DMM_OVA_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="741" id="dubbed-741" data-premieredt="6/25/2015 7:00:00 PM" data-releasedt="10/20/2016 2:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/amagi-brilliant-park-ova/2015062614" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Amagi Brilliant Park OVA">Amagi Brilliant Park OVA</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ABP/512x288/ABP_ova_2015062614_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ABP/ABP_OVA_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="368" id="dubbed-368" data-premieredt="10/5/2014 7:00:00 PM" data-releasedt="10/20/2016 2:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/amagi-brilliant-park/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Amagi Brilliant Park">Amagi Brilliant Park</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ABP/512x288/ABP_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ABP/512x288/ABP_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ABP/512x288/ABP_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ABP/ABP_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="dubbed" data-id="492" id="dubbed-492" data-premieredt="4/3/2015 7:00:00 PM" data-releasedt="4/4/2015 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Is It Wrong to Try to Pick Up Girls in a Dungeon?">Is It Wrong to Try to Pick Up Girls in a Dungeon?</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WPG/512x288/WPG_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WPG/512x288/WPG_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WPG/512x288/WPG_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WPG/WPG_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="window">
+                        <div class="closeWin" data-tour-point="4"><span class="closeBtn fa fa-times"></span></div>
+                        <div class="details">
+
+                            <div style="text-align:center; padding-top:100px;">
+                                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i> Loading...
+                            </div>
+
+                        </div>
+                        <div class="navigation">
+                            <div data-section="dubbed">
+                                <div><span class="nav-info nav-selected">Information</span></div>
+                                <div><span class="nav-episode">Episode List</span></div>
+                                <div><span class="nav-recommend">You Might Like</span></div>
+                                <span data-tour-point="5"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="exclusive" class="section">
+
+                    <h1 data-tour-point="0">
+                        HIDIVE Exclusives
+
+
+                        <small class="hidden-xs" style="font-size:12px;">&nbsp;<a href="/hidive-exclusives" data-toggle="tooltip" title="View All">View All (99)</a></small>
+                        <small class="visible-xs" style="font-size:18px;">&nbsp;<a href="/hidive-exclusives" data-toggle="tooltip" title="View All"><i class="fa fa-sign-out"></i> (99)</a></small>
+                    </h1>
+                    <div class="title-slider">
+
+                        <div class="cell" data-section="exclusive" data-id="806" id="exclusive-806" data-premieredt="10/6/2017 7:00:00 PM" data-releasedt="10/5/2017 5:00:00 PM" data-nextairdate="10/28/2017 12:30:00 PM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E4 In 6 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/hozukis-coolheadedness-2/s02e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Hozuki&#39;s Coolheadedness 2">Hozuki's Coolheadedness 2</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/512x288/HZC_02_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/512x288/HZC_02_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/512x288/HZC_02_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/HZC_02_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="720" id="exclusive-720" data-premieredt="8/18/2017 7:00:00 PM" data-releasedt="8/26/2017 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/bang-dream-ova/2017081914" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="BanG Dream! OVA">BanG Dream! OVA</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BNG/512x288/bang-dream_BNG_01_014_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/BNG/BNG_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="657" id="exclusive-657" data-premieredt="11/20/2015 7:00:00 PM" data-releasedt="8/24/2017 12:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/girls-und-panzer-der-film/2015112101" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Girls und Panzer der Film">Girls und Panzer der Film</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GUP/512x288/GUP_movie_20151121_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/GUP/GUP_MOVIE_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="617" id="exclusive-617" data-premieredt="2/5/1982 7:00:00 PM" data-releasedt="8/9/2017 2:00:00 PM" data-nextairdate="10/24/2017 12:00:00 PM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E11 In 2 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/blue-gale-xabungle/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Blue Gale Xabungle">Blue Gale Xabungle</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="50">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/512x288/blue-gale-xabungle_XBG_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/512x288/blue-gale-xabungle_XBG_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/512x288/blue-gale-xabungle_XBG_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/XBG_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="788" id="exclusive-788" data-premieredt="7/5/2017 7:00:00 PM" data-releasedt="7/6/2017 12:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/action-heroine-cheer-fruits/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Action Heroine Cheer Fruits">Action Heroine Cheer Fruits</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/action-heroine-cheer-fruits_ACF_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="784" id="exclusive-784" data-premieredt="7/1/2017 7:00:00 PM" data-releasedt="6/30/2017 12:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/battle-girl-high-school/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Battle Girl High School">Battle Girl High School</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/512x288/battle-girl-high-school_BGH_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/512x288/battle-girl-high-school_BGH_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/512x288/battle-girl-high-school_BGH_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/Battle-Girl-High-School_BGH_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="107" id="exclusive-107" data-premieredt="5/24/2007 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/ice/2007052501" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="ICE">ICE</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="3">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ICE/512x288/ICE_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ICE/512x288/ICE_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ICE/512x288/ICE_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ICE/ICE_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="602" id="exclusive-602" data-premieredt="10/6/2005 7:00:00 PM" data-releasedt="6/15/2017 7:00:00 PM" data-nextairdate="10/27/2017 12:00:00 PM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E22 In 5 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/garo/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="GARO">GARO</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="25">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GAR/512x288/GAR_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GAR/512x288/GAR_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GAR/512x288/GAR_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GAR/GAR_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="594" id="exclusive-594" data-premieredt="7/31/2015 7:00:00 PM" data-releasedt="5/1/2017 1:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/corpse-party-live-action-pg12-version/2015080101" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Corpse Party &quot;Live Action&quot; - PG12 Version">Corpse Party "Live Action" - PG12 Version</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CRP/512x288/CRP_movie_20150801_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CRP/CRP_MOVIE_PG12_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="769" id="exclusive-769" data-premieredt="4/3/2017 7:00:00 PM" data-releasedt="4/1/2017 1:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/frame-arms-girl/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Frame Arms Girl">Frame Arms Girl</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FAG/512x288/frame-arms-girl_FAG_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FAG/512x288/frame-arms-girl_FAG_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FAG/512x288/frame-arms-girl_FAG_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FAG/FAG_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="761" id="exclusive-761" data-premieredt="4/7/2017 7:00:00 PM" data-releasedt="4/1/2017 1:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/rin-ne-3/s03e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="RIN-NE 3">RIN-NE 3</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="25">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/RNE/512x288/rinne-3_RNE_03_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/RNE/512x288/rinne-3_RNE_03_002_512x288_01.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/RNE/512x288/rinne-3_RNE_03_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/RNE/RNE_03_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="568" id="exclusive-568" data-premieredt="12/20/1988 7:00:00 PM" data-releasedt="3/15/2017 12:00:00 AM" data-nextairdate="10/26/2017 11:00:00 AM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E63 In 4 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/legend-of-the-galactic-heroes/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Legend of the Galactic Heroes">Legend of the Galactic Heroes</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="110">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/LGH/512x288/legend-of-the-galactic-heroes_LGH_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/LGH/512x288/legend-of-the-galactic-heroes_LGH_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/LGH/512x288/legend-of-the-galactic-heroes_LGH_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/LGH/LegendGalacticHeroes_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="741" id="exclusive-741" data-premieredt="6/25/2015 7:00:00 PM" data-releasedt="10/20/2016 2:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/amagi-brilliant-park-ova/2015062614" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Amagi Brilliant Park OVA">Amagi Brilliant Park OVA</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ABP/512x288/ABP_ova_2015062614_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ABP/ABP_OVA_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="636" id="exclusive-636" data-premieredt="10/12/1999 7:00:00 PM" data-releasedt="2/28/2017 7:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/the-big-o/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="The Big O">The Big O</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGO/512x288/BGO_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGO/512x288/BGO_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGO/512x288/BGO_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGO/BGO_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="exclusive" data-id="712" id="exclusive-712" data-premieredt="6/18/2013 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/love-chunibyo-other-delusions-ova/2013061913" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Love, Chunibyo &amp; Other Delusions! OVA">Love, Chunibyo & Other Delusions! OVA</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CDK/512x288/CDK_OVA_20130619_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CDK/CDK_01_OVA_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="window">
+                        <div class="closeWin" data-tour-point="4"><span class="closeBtn fa fa-times"></span></div>
+                        <div class="details">
+
+                            <div style="text-align:center; padding-top:100px;">
+                                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i> Loading...
+                            </div>
+
+                        </div>
+                        <div class="navigation">
+                            <div data-section="exclusive">
+                                <div><span class="nav-info nav-selected">Information</span></div>
+                                <div><span class="nav-episode">Episode List</span></div>
+                                <div><span class="nav-recommend">You Might Like</span></div>
+                                <span data-tour-point="5"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="episodes" class="section">
+
+                    <h1 data-tour-point="0">
+                        Recently Added
+
+
+                    </h1>
+                    <div class="title-slider">
+
+                        <div class="cell" data-section="episodes" data-id="617" id="episodes-617" data-premieredt="2/5/1982 7:00:00 PM" data-releasedt="8/9/2017 2:00:00 PM" data-nextairdate="10/24/2017 12:00:00 PM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E11 In 2 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/blue-gale-xabungle/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Blue Gale Xabungle">Blue Gale Xabungle</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="50">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/512x288/blue-gale-xabungle_XBG_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/512x288/blue-gale-xabungle_XBG_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/512x288/blue-gale-xabungle_XBG_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/XBG_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="episodes" data-id="664" id="episodes-664" data-premieredt="10/3/2011 7:00:00 PM" data-releasedt="6/1/2017 1:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/chihayafuru/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Chihayafuru">Chihayafuru</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="25">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/512x288/CHF_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/512x288/CHF_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/512x288/CHF_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/CHF_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="episodes" data-id="806" id="episodes-806" data-premieredt="10/6/2017 7:00:00 PM" data-releasedt="10/5/2017 5:00:00 PM" data-nextairdate="10/28/2017 12:30:00 PM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E4 In 6 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/hozukis-coolheadedness-2/s02e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Hozuki&#39;s Coolheadedness 2">Hozuki's Coolheadedness 2</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/512x288/HZC_02_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/512x288/HZC_02_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/512x288/HZC_02_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/HZC/HZC_02_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="episodes" data-id="805" id="episodes-805" data-premieredt="10/6/2017 7:00:00 PM" data-releasedt="10/5/2017 5:00:00 PM" data-nextairdate="10/28/2017 6:00:00 AM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E4 In 6 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/classicaloid-2/s02e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="ClassicaLoid 2">ClassicaLoid 2</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/512x288/CLD_02_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/512x288/CLD_02_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/512x288/CLD_02_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/CLD_02_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="episodes" data-id="815" id="episodes-815" data-premieredt="10/6/2017 7:00:00 PM" data-releasedt="10/5/2017 5:00:00 PM" data-nextairdate="10/28/2017 8:00:00 AM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E4 In 6 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/dynamic-chord/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="DYNAMIC CHORD">DYNAMIC CHORD</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/DYC/512x288/DYC_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/DYC/512x288/DYC_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/DYC/512x288/DYC_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/DYC/DYC_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="episodes" data-id="602" id="episodes-602" data-premieredt="10/6/2005 7:00:00 PM" data-releasedt="6/15/2017 7:00:00 PM" data-nextairdate="10/27/2017 12:00:00 PM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E22 In 5 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/garo/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="GARO">GARO</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="25">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GAR/512x288/GAR_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GAR/512x288/GAR_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GAR/512x288/GAR_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GAR/GAR_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="episodes" data-id="788" id="episodes-788" data-premieredt="7/5/2017 7:00:00 PM" data-releasedt="7/6/2017 12:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/action-heroine-cheer-fruits/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Action Heroine Cheer Fruits">Action Heroine Cheer Fruits</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/action-heroine-cheer-fruits_ACF_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="episodes" data-id="784" id="episodes-784" data-premieredt="7/1/2017 7:00:00 PM" data-releasedt="6/30/2017 12:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/battle-girl-high-school/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Battle Girl High School">Battle Girl High School</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/512x288/battle-girl-high-school_BGH_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/512x288/battle-girl-high-school_BGH_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/512x288/battle-girl-high-school_BGH_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BGH/Battle-Girl-High-School_BGH_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="episodes" data-id="657" id="episodes-657" data-premieredt="11/20/2015 7:00:00 PM" data-releasedt="8/24/2017 12:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/girls-und-panzer-der-film/2015112101" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Girls und Panzer der Film">Girls und Panzer der Film</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GUP/512x288/GUP_movie_20151121_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GUP/GUP_MOVIE_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="window">
+                        <div class="closeWin" data-tour-point="4"><span class="closeBtn fa fa-times"></span></div>
+                        <div class="details">
+
+                            <div style="text-align:center; padding-top:100px;">
+                                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i> Loading...
+                            </div>
+
+                        </div>
+                        <div class="navigation">
+                            <div data-section="episodes">
+                                <div><span class="nav-info nav-selected">Information</span></div>
+                                <div><span class="nav-episode">Episode List</span></div>
+                                <div><span class="nav-recommend">You Might Like</span></div>
+                                <span data-tour-point="5"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="trending" class="section">
+
+                    <h1 data-tour-point="0">
+                        Trending Now
+
+
+                        <small class="hidden-xs" style="font-size:12px;">&nbsp;<a href="/trending-now" data-toggle="tooltip" title="View All">View All (458)</a></small>
+                        <small class="visible-xs" style="font-size:18px;">&nbsp;<a href="/trending-now" data-toggle="tooltip" title="View All"><i class="fa fa-sign-out"></i> (458)</a></small>
+                    </h1>
+                    <div class="title-slider">
+
+                        <div class="cell" data-section="trending" data-id="525" id="trending-525" data-premieredt="4/3/2004 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/hanaukyo-maid-team-la-verite/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Hanaukyo Maid Team: La Verite">Hanaukyo Maid Team: La Verite</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HKM/512x288/hanaukyo-maid-team_HKM_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HKM/512x288/hanaukyo-maid-team_HKM_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HKM/512x288/hanaukyo-maid-team_HKM_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/HKM/HKM_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="367" id="trending-367" data-premieredt="1/7/2014 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/engaged-to-the-unidentified/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Engaged to the Unidentified">Engaged to the Unidentified</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/EU/512x288/EU_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/EU/512x288/EU_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/EU/512x288/EU_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/EU/EU_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="105" id="trending-105" data-premieredt="7/4/2010 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/high-school-of-the-dead/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="High School of the Dead">High School of the Dead</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HSO/512x288/HSO_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HSO/512x288/HSO_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HSO/512x288/HSO_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/HSO/HSO_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="788" id="trending-788" data-premieredt="7/5/2017 7:00:00 PM" data-releasedt="7/6/2017 12:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-exclusive">
+                                    Exclusive
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/action-heroine-cheer-fruits/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Action Heroine Cheer Fruits">Action Heroine Cheer Fruits</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/512x288/action-heroine-cheer-fruits_ACF_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/ACF/action-heroine-cheer-fruits_ACF_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="492" id="trending-492" data-premieredt="4/3/2015 7:00:00 PM" data-releasedt="4/4/2015 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Is It Wrong to Try to Pick Up Girls in a Dungeon?">Is It Wrong to Try to Pick Up Girls in a Dungeon?</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WPG/512x288/WPG_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WPG/512x288/WPG_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WPG/512x288/WPG_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/WPG/WPG_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="14" id="trending-14" data-premieredt="4/2/2010 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/angel-beats/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Angel Beats">Angel Beats</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/512x288/ANB_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/512x288/ANB_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/512x288/ANB_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/ANB_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="59" id="trending-59" data-premieredt="1/6/2012 7:00:00 PM" data-releasedt="4/7/2014 7:00:00 PM" data-nextairdate="">
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/the-familiar-of-zero-f/s04e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="The Familiar of Zero F">The Familiar of Zero F</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FZF/512x288/FZF_04_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FZF/512x288/FZF_04_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FZF/512x288/FZF_04_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FZF/FZF_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="482" id="trending-482" data-premieredt="10/5/2014 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/when-supernatural-battles-became-commonplace/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="When Supernatural Battles Became Commonplace">When Supernatural Battles Became Commonplace</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WSC/512x288/WSC_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WSC/512x288/WSC_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WSC/512x288/WSC_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/WSC/WSC_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="517" id="trending-517" data-premieredt="7/2/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/gate/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="GATE">GATE</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="24">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GTE/512x288/GTE_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GTE/512x288/GTE_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GTE/512x288/GTE_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/GTE/GTE_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="756" id="trending-756" data-premieredt="12/24/2008 7:00:00 PM" data-releasedt="2/28/2017 7:00:00 PM" data-nextairdate="">
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/the-familiar-of-zero-rondo-of-princesses-ova/2008122513" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="The Familiar of Zero: &quot;Rondo&quot; of Princesses OVA">The Familiar of Zero: "Rondo" of Princesses OVA</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FZP/512x288/the-familiar-of-zero-rondo-of-princesses_FZP_OVA_20081225_00_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FZP/FZP_OVA_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="518" id="trending-518" data-premieredt="7/2/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/ushio-tora/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Ushio &amp; Tora">Ushio & Tora</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="39">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/512x288/UHT_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/512x288/UHT_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/512x288/UHT_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/UHT_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="200" id="trending-200" data-premieredt="4/4/2013 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/samurai-bride/s02e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Samurai Bride">Samurai Bride</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SMG/512x288/SMG_02_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SMG/512x288/SMG_02_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SMG/512x288/SMG_02_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SMG/SMG_02_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="572" id="trending-572" data-premieredt="10/2/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/chivalry-of-a-failed-knight/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Chivalry of a Failed Knight">Chivalry of a Failed Knight</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SFK/512x288/chivalry-of-a-failed-knight_SFK_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SFK/512x288/chivalry-of-a-failed-knight_SFK_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SFK/512x288/chivalry-of-a-failed-knight_SFK_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/SFK/SFK_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="491" id="trending-491" data-premieredt="4/3/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/food-wars/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Food Wars!">Food Wars!</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="24">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/512x288/food-wars_FDW_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/512x288/food-wars_FDW_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/512x288/food-wars_FDW_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/FDW_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="trending" data-id="234" id="trending-234" data-premieredt="7/1/2012 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/muv-luv-alternative-total-eclipse/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Muv-Luv Alternative: Total Eclipse">Muv-Luv Alternative: Total Eclipse</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="24">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/MLA/512x288/MLA_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/MLA/512x288/MLA_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/MLA/512x288/MLA_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/MLA/MLA_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="window">
+                        <div class="closeWin" data-tour-point="4"><span class="closeBtn fa fa-times"></span></div>
+                        <div class="details">
+
+                            <div style="text-align:center; padding-top:100px;">
+                                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i> Loading...
+                            </div>
+
+                        </div>
+                        <div class="navigation">
+                            <div data-section="trending">
+                                <div><span class="nav-info nav-selected">Information</span></div>
+                                <div><span class="nav-episode">Episode List</span></div>
+                                <div><span class="nav-recommend">You Might Like</span></div>
+                                <span data-tour-point="5"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="popular" class="section">
+
+                    <h1 data-tour-point="0">
+                        Most Popular
+
+
+                        <small class="hidden-xs" style="font-size:12px;">&nbsp;<a href="/most-popular" data-toggle="tooltip" title="View All">View All (456)</a></small>
+                        <small class="visible-xs" style="font-size:18px;">&nbsp;<a href="/most-popular" data-toggle="tooltip" title="View All"><i class="fa fa-sign-out"></i> (456)</a></small>
+                    </h1>
+                    <div class="title-slider">
+
+                        <div class="cell" data-section="popular" data-id="664" id="popular-664" data-premieredt="10/3/2011 7:00:00 PM" data-releasedt="6/1/2017 1:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/chihayafuru/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Chihayafuru">Chihayafuru</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="25">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/512x288/CHF_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/512x288/CHF_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/512x288/CHF_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/CHF/CHF_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="402" id="popular-402" data-premieredt="7/5/2014 7:00:00 PM" data-releasedt="7/6/2014 7:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/akame-ga-kill/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Akame ga Kill!">Akame ga Kill!</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="24">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/AGK/512x288/AGK_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/AGK/512x288/AGK_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/AGK/512x288/AGK_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/AGK/AGK_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="345" id="popular-345" data-premieredt="7/23/2004 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/lady-death/2004072401" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Lady Death">Lady Death</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="1">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/LD/512x288/LD_0-1_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/LD/LD_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="14" id="popular-14" data-premieredt="4/2/2010 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/angel-beats/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Angel Beats">Angel Beats</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/512x288/ANB_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/512x288/ANB_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/512x288/ANB_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/ANB/ANB_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="383" id="popular-383" data-premieredt="4/5/2014 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/haikyu/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Haikyu!!">Haikyu!!</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="25">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HKY/512x288/HKY_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HKY/512x288/HKY_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HKY/512x288/HKY_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img src="https://d10xkldqejj5hr.cloudfront.net/titles/HKY/HKY_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="617" id="popular-617" data-premieredt="2/5/1982 7:00:00 PM" data-releasedt="8/9/2017 2:00:00 PM" data-nextairdate="10/24/2017 12:00:00 PM">
+                            <div class="top-badge top-badge-left">
+                                <div class="sfw-badge badge-sim">
+                                    <i class="fa fa-clock-o"></i> E11 In 2 Days
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/blue-gale-xabungle/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Blue Gale Xabungle">Blue Gale Xabungle</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="50">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/512x288/blue-gale-xabungle_XBG_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/512x288/blue-gale-xabungle_XBG_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/512x288/blue-gale-xabungle_XBG_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/XBG/XBG_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="668" id="popular-668" data-premieredt="10/5/2016 7:00:00 PM" data-releasedt="9/30/2016 7:00:00 PM" data-nextairdate="">
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/flip-flappers/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="FLIP FLAPPERS">FLIP FLAPPERS</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLP/512x288/flip-flappers_FLP_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLP/512x288/flip-flappers_FLP_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLP/512x288/flip-flappers_FLP_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLP/FLP_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="491" id="popular-491" data-premieredt="4/3/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/food-wars/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Food Wars!">Food Wars!</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="24">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/512x288/food-wars_FDW_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/512x288/food-wars_FDW_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/512x288/food-wars_FDW_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FDW/FDW_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="263" id="popular-263" data-premieredt="10/4/2013 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/log-horizon/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Log Horizon">Log Horizon</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="25">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/LHZ/512x288/LHZ_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/LHZ/512x288/LHZ_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/LHZ/512x288/LHZ_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/LHZ/LHZ_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="511" id="popular-511" data-premieredt="7/7/2015 7:00:00 PM" data-releasedt="7/7/2015 7:00:00 PM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/himouto-umaru-chan/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Himouto! Umaru-chan">Himouto! Umaru-chan</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HUC/512x288/HUC_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HUC/512x288/HUC_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HUC/512x288/HUC_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/HUC/HUC_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="597" id="popular-597" data-premieredt="4/8/2016 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/flying-witch/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Flying Witch">Flying Witch</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLW/512x288/flying-witch_FLW_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLW/512x288/flying-witch_FLW_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLW/512x288/flying-witch_FLW_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/FLW/FLW_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="513" id="popular-513" data-premieredt="7/2/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/aoharu-x-machinegun/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Aoharu x Machinegun">Aoharu x Machinegun</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="12">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/AXM/512x288/AXM_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/AXM/512x288/AXM_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/AXM/512x288/AXM_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/AXM/AXM_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="688" id="popular-688" data-premieredt="1/20/2017 7:00:00 PM" data-releasedt="1/21/2017 9:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    New Release
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/bang-dream/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="BanG Dream!">BanG Dream!</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="13">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BNG/512x288/bang-dream_BNG_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BNG/512x288/bang-dream_BNG_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BNG/512x288/bang-dream_BNG_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/BNG/BNG_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="674" id="popular-674" data-premieredt="10/7/2016 7:00:00 PM" data-releasedt="9/30/2016 7:00:00 PM" data-nextairdate="">
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/classicaloid/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="ClassicaLoid">ClassicaLoid</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="25">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/512x288/classicaloid_CLD_01_001_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/512x288/classicaloid_CLD_01_002_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/512x288/classicaloid_CLD_01_003_512x288_00.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/CLD/CLD_01_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                        <div class="cell" data-section="popular" data-id="518" id="popular-518" data-premieredt="7/2/2015 7:00:00 PM" data-releasedt="10/1/2016 12:00:00 AM" data-nextairdate="">
+                            <div class="top-badge top-badge-right">
+                                <div class="sfw-badge badge-new">
+                                    Dubbed
+                                </div>
+                            </div>
+
+
+                            <div class="hitbox">
+                                <div class="arrow_box">
+
+                                    <div class="player">
+                                        <a href="https://www.hidive.com/stream/ushio-tora/s01e001" style="font-size:3em;line-height:1em;" data-play="true" class="glyphicon glyphicon-play-circle"></a>
+                                    </div>
+
+                                    <div class="synopsis">
+                                        <h3 title="Ushio &amp; Tora">Ushio & Tora</h3>
+                                    </div>
+                                    <div class="expander" style="line-height:1em;"><span class="glyphicon glyphicon-menu-down"></span></div>
+                                </div>
+                            </div>
+                            <div class="img-rotator" data-num-of-episodes="39">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/512x288/UHT_01_001_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/512x288/UHT_01_002_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/512x288/UHT_01_003_512x288.jpg" class="img-responsive" style="display:none;" onerror="deafultImg(this);" />
+                            </div>
+                            <div class="default-img">
+                                <img data-lazy="https://d10xkldqejj5hr.cloudfront.net/titles/UHT/UHT_MASTER_300x169.jpg" class="img-responsive animated fadeIn" onerror="deafultImg(this);">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="window">
+                        <div class="closeWin" data-tour-point="4"><span class="closeBtn fa fa-times"></span></div>
+                        <div class="details">
+
+                            <div style="text-align:center; padding-top:100px;">
+                                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i> Loading...
+                            </div>
+
+                        </div>
+                        <div class="navigation">
+                            <div data-section="popular">
+                                <div><span class="nav-info nav-selected">Information</span></div>
+                                <div><span class="nav-episode">Episode List</span></div>
+                                <div><span class="nav-recommend">You Might Like</span></div>
+                                <span data-tour-point="5"></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="title-data" style="">
+                </div>
+                <div id="ajax-data"></div>
+                <script>
+                    $(document).ready(function() {
+                        setTimeout(function() {
+                            $("#userGreeting").fadeTo(500, 0, function() {
+                                $(this).slideUp();
+                            });
+                        }, 10000);
+                    });
+                </script>
+
+                <footer class="tb-padding-10 overflow-auto">
+
+                    <div class="col-md-9">
+                        <ul class="list-inline">
+                            <li><a id="footerSignup" href="/account/signup">Sign Up</a></li>
+                            <li><a href="//help.hidive.com/" target="_blank">Help Center</a></li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a id="contactUs" href="javascript:void(0);">Contact Us</a></li>
+                            <li><a href="/careers">Careers</a></li>
+                            <li><a href="/privacy-policy">Privacy Policy</a></li>
+                            <li><a href="/terms-of-use">Terms of Use</a></li>
+                            <li>
+                                <a href="/news">Press</a>
+                            </li>
+                        </ul>
+                        <ul class="list-inline">
+                            <li>HIDIVE and the logos &trade; and &copy; HIDIVE, LLC.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <a class="social-icons facebook2" id="facebook2_footer_anchor" href="//www.facebook.com/HIDIVEofficial" target="_blank"><i class="fa-facebook-official fa icon-1x"></i></a>
+                        <a class="social-icons twitter2" id="twitter2_footer_anchor" href="//www.twitter.com/HIDIVEofficial" target="_blank"><i class="fa-twitter fa icon-1x"></i></a>
+                        <a class="social-icons youtube2" id="youtube2_footer_anchor" href="//www.youtube.com/channel/UCeFzTMpr7ik6oU5MT_YAYzg" target="_blank"><i class="fa-youtube fa icon-1x"></i></a>
+                        <a class="social-icons instagram2" id="instagram2_footer_anchor" href="//www.instagram.com/HIDIVEofficial" target="_blank"><i class="fa-instagram fa icon-1x"></i></a>
+
+
+
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+        <!-- END HIDIVE -->
+
+        </div>
+        <div class="clearfix"></div>
+        <!--body wrapper end-->
+        <!-- /w3l-agile -->
+        </div>
+        <!--body wrapper end-->
+        </div>
+        <!-- /w3l-agile -->
+        <!-- main content end-->
+    </section>
+
+    <script src="../assets/js/jquery.nicescroll.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/js/bootstrap.js"></script>
+    <!-- <script type="text/javascript" src="/scripts/jquery.serialize-object.min.js"></script> -->
+
+</body>
+
+</html>

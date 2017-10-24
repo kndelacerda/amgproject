@@ -1,0 +1,11 @@
+id,hike_name,hike_location,distance_miles,elevation_feet,best_time
+1,"Half Dome","Yosemite National Park, California",16.00,5652,"April to October"
+2,"Angels Landing","Zion National Park, Utah",5.00,2073,"March to Ocotber"
+3,"Root Glacier Trail","Wrangell-St. Elias National Park, Alaska",5.30,1112,"June to August"
+4,"Highline Trail","Glacier National Park, Montana",11.50,8740,"July to August"
+5,"The Narrows","Zion National Park, Utah",16.00,344,"April to October"
+6,"Elephant Canyon Druid Arch","Canyonlands National Park, Utah",11.00,2076,"Year Round"
+7,"Franconia Ridge Loop","Franconia Notch State Park, New Hampshire",9.00,3937,"September to November"
+8,"Wyoming Cascade Canyon Trail","Grand Teton National Park, Wyoming",14.40,1351,"June to November"
+9,"Kalalau Trail","Napali Coast, Kanuai, Hawaii",11.00,4117,"May to October"
+10,"West Maroon Creek Trail","Maroon Bells-Snowmass Wilderness, Colorado",12.70,3454,"April to September"

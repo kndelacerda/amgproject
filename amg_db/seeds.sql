@@ -1,0 +1,10 @@
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('Half Dome', 'Yosemite National Park, California', 16, 5652, 'April to October');
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('Angels Landing', 'Zion National Park, Utah', 5, 2073, 'March to Ocotber');
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('Root Glacier Trail','Wrangell-St. Elias National Park, Alaska', 5.3, 1112, 'June to August');
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('Highline Trail','Glacier National Park, Montana', 11.5, 8740, 'July to August');
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('The Narrows', 'Zion National Park, Utah', 16, 344, 'April to October');
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('Elephant Canyon Druid Arch', 'Canyonlands National Park, Utah', 11, 2076, 'Year Round');
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('Franconia Ridge Loop', 'Franconia Notch State Park, New Hampshire', 9, 3937, 'September to November');
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('Wyoming Cascade Canyon Trail', 'Grand Teton National Park, Wyoming', 14.4, 1351, 'June to November');
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('Kalalau Trail', 'Napali Coast, Kanuai, Hawaii', 11, 4117, 'May to October');
+INSERT INTO hikes (hike_name, hike_location, distance_miles, elevation_feet, best_time) VALUES ('West Maroon Creek Trail', 'Maroon Bells-Snowmass Wilderness, Colorado', 12.7, 3454, 'April to September');

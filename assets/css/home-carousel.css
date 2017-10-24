@@ -1,0 +1,77 @@
+.carousel,
+.carousel-bottom {
+    overflow: hidden;
+}
+
+.carousel {
+    opacity: 0;
+}
+
+.carousel.slick-initialized {
+    transition: opacity 1.5s ease;
+    opacity: 1;
+}
+
+.carousel-wrapper .slick-slide {
+    margin: 0px !important;
+}
+
+.carousel-wrapper .slick-prev,
+.carousel-wrapper .slick-next {
+    width: 40px !important;
+    /*Erik*/
+    height: 455px;
+    top: 10px;
+}
+
+.carousel-wrapper .slick-prev:hover,
+.carousel-wrapper .slick-prev:focus,
+.carousel-wrapper .slick-next:hover,
+.carousel-wrapper .slick-next:focus {
+    color: transparent;
+    outline: none;
+    /*background-color: rgba(0, 0, 0, 0.7); Erik*/
+}
+
+.carousel-wrapper .slick-prev:before,
+.carousel-wrapper .slick-next:before {
+    font-family: 'Glyphicons Halflings';
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.carousel-wrapper .slick-prev:before {
+    content: '\e257' !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .7);
+}
+
+.carousel-wrapper .slick-next:before {
+    content: '\e258' !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .7);
+}
+
+.carousel-wrapper .slick-dots {
+    position: static;
+    margin-bottom: 0px;
+}
+
+.carousel-wrapper .slick-dots li {
+    width: auto !important;
+}
+
+.carousel-wrapper .slick-dots button {
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.carousel-wrapper .slick-dots button:before {
+    font-size: 16px;
+    font-family: 'Glyphicons Halflings';
+    content: "\2212";
+    color: silver;
+}
